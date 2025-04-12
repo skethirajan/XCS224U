@@ -1,0 +1,421 @@
+	input	category	prediction
+0	A cake was blessed by the wolf .	active_to_passive	cake ( 0 ) ; * wolf ( 0 ) ; blessing (
+1	A melon was blessed by a boy .	active_to_passive	melon ( 0 ) ; boy ( 0 ) ; blessing (
+2	A cake was blessed by Nathan .	active_to_passive	cake ( 59 ) ; Nathan ( 0 ) ; offer ( 16 
+3	The bowl was blessed by a girl .	active_to_passive	* bowl ( 59 ) ; girl ( 48 ) ; blessing ( 0
+4	The teacher believed that the toy was blessed by Mia .	active_to_passive	* teacher ( 52 ) ; * toy ( 59 ) ; Mia
+5	The radio was blessed .	active_to_passive	* radio ( 11 ) ; blessing ( 45 ) AND theme ( 45, 11
+6	A raisin was blessed by Sofia .	active_to_passive	raisin ( 0 ) ; Sofia ( 59 ) ; blessed (
+7	A pencil was blessed .	active_to_passive	pencil ( 59 ) ; blessed ( 38 ) AND theme ( 38, 
+8	A donut was blessed by a horse .	active_to_passive	donut ( 44 ) ; horse ( 0 ) ; nmod 
+9	A rose was blessed .	active_to_passive	rose ( 59 ) ; blessed ( 33 ) AND theme ( 33, 
+10	Emma said that the drink was blessed by a girl .	active_to_passive	Emma ( 59 ) ; * drink ( 0 ) ; girl ( 
+11	The needle was blessed .	active_to_passive	* needle ( 51 ) ; scoff ( 59 ) AND theme (
+12	The banana was blessed by the dog .	active_to_passive	* banana ( 59 ) ; * dog ( 44 ) ; blessed ( 
+13	The cake was blessed by a cat .	active_to_passive	* cake ( 53 ) ; cat ( 49 ) ; eat ( 59
+14	A shoe was blessed .	active_to_passive	shoe ( 37 ) ; blessing ( 46 ) AND theme ( 46, 37 
+15	The box was blessed by Benjamin .	active_to_passive	* box ( 22 ) ; Benjamin ( 59 ) ; e-mail
+16	A melon was blessed by a goose .	active_to_passive	melon ( 26 ) ; goose ( 59 ) ; help ( 
+17	Aria respected that the liver was blessed by Emma .	active_to_passive	Aria ( 59 ) ; * liver ( 59 ) ; Emma (
+18	The cake was blessed by Emma .	active_to_passive	* cake ( 23 ) ; Emma ( 59 ) ; blessing ( 46 
+19	A rose was blessed by a boy .	active_to_passive	rose ( 33 ) ; boy ( 0 ) ; enbear (
+20	Emma believed that a student liked that a chicken valued that the child proved that Jacob believed that a boy believed that a duck burned a cake .	cp_recursion	Emma ( 44 ) ; student ( 23 ) ; chicken ( 49 ) 
+21	A chicken believed that Ellie liked that Olivia expected that a boy admired that a cat valued that Emma appreciated that Liam hoped that Ava said that Isaac liked that a creature declared that the dog liked that a cake was fed to a girl .	cp_recursion	chicken ( 59 ) ; Ellie ( 59 ) ; Olivia ( 
+22	The pig liked that Levi liked that the dog supported that Sophia wished that the girl imagined that the cat liked that the baby liked that Logan noticed that the president meant that Emma admired that a horse passed the donut on a carpet on a table to Olivia .	cp_recursion	* pig ( 0 ) ; Levi ( 0 ) ; * dog
+23	Henry said that a cat believed that Lucas noticed that the baby respected that a boy liked that Emma hoped that a child liked that Leah admired that a girl was fed a jar in the house by Noah .	cp_recursion	Henry ( 44 ) ; cat ( 0 ) ; Lucas ( 0 
+24	The boy meant that the poet liked that a squirrel proved that William respected that a bird hoped that Hannah hoped that Liam liked that the cake changed .	cp_recursion	* boy ( 21 ) ; * poet ( 0 ) ; squirrel ( 
+25	Emma thought that Olivia noticed that James noticed that the duke liked that Mila meant that Natalie said that a teacher noticed that Noah hoped that Amelia proved that Audrey liked that a donut was painted by a student .	cp_recursion	Emma ( 59 ) ; Olivia ( 59 ) ; James ( 59
+26	Emma liked that the lion liked that Abigail said that Sebastian liked that Matthew hoped that the donut burned .	cp_recursion	Emma ( 59 ) ; * lion ( 0 ) ; Abiga
+27	A boy confessed that the professor imagined that Jacob liked that a girl liked that Liam respected that Ava wanted to sleep .	cp_recursion	boy ( 0 ) ; * professor ( 0 ) ; Jacob ( 12
+28	Olivia admired that Sophia hoped that Noah expected that the rose was rolled by Emma .	cp_recursion	Olivia ( 59 ) ; Sophia ( 59 ) ; Noah ( 51 
+29	The scientist declared that William said that Daniel liked that the game was eaten by Aria .	cp_recursion	* scientist ( 52 ) ; William ( 0 ) ; Daniel ( 36 
+30	Olivia admired that a girl liked that Ava said that a bee admired that the citizen noticed that William noticed that Noah hoped that Liam confessed that Emma hoped that Lucas appreciated that the tool froze .	cp_recursion	Olivia ( 59 ) ; girl ( 59 ) ; Ava ( 19
+31	Elizabeth liked that the girl hoped that Liam thought that a mouse said that a teacher liked that Isabella liked that Emma floated .	cp_recursion	Elizabeth ( 20 ) ; * girl ( 49 ) ; Liam ( 59
+32	A dog confessed that a child said that James said that Victoria hoped that the goose expected that the guard declared that the puppy valued that Benjamin valued that Liam said that the boy believed that a girl noticed that Olivia changed Emma .	cp_recursion	dog ( 2 ) ; child ( 36 ) ; James ( 59 )
+33	Emma believed that the citizen wished that the chicken thought that a girl liked that a butterfly rolled .	cp_recursion	Emma ( 0 ) ; * citizen ( 41 ) ; * chicken ( 39
+34	A cat liked that Luna hoped that Emma liked that Olivia liked that Liam appreciated that the bear floated .	cp_recursion	cat ( 8 ) ; Luna ( 23 ) ; Luna ( 21 ) 
+35	The judge liked that Emma declared that a patient said that Isabella believed that Liam hoped that Olivia liked that the child liked that a girl hoped that Oliver liked that the king was given a cake .	cp_recursion	* judge ( 0 ) ; Emma ( 59 ) ; * patient (
+36	The fly confessed that the cat admired that the customer wished that a priest believed that the baby liked that the bottle was given to a horse by the father .	cp_recursion	* fly ( 52 ) ; * cat ( 49 ) ; * customer ( 
+37	The bear admired that a bird liked that Emma liked that the child proved that Liam liked that Isabella liked that the dog said that Avery hoped that Leah proved that the boy liked that the girl tolerated that a cake froze .	cp_recursion	* bear ( 26 ) ; bird ( 59 ) ; Emma ( 4 
+38	Emma liked that Ella liked that Liam respected that Oliver noticed that a girl imagined that Bella meant that Ava said that a hero was awarded the cake on the truck in the crib in the room .	cp_recursion	Emma ( 37 ) ; Ella ( 0 ) ; Liam ( 28
+39	Levi liked that Emma declared that the girl wished that a lawyer liked that the turtle imagined that a monkey liked that Charlotte ate .	cp_recursion	Levi ( 5 ) ; Emma ( 0 ) ; * girl ( 19 
+40	Noah teleported a lollipop beside the box to a girl .	do_dative_to_pp_dative	Noah ( 36 ) ; lollipop ( 59 ) ; * box
+41	The girl teleported the donut in the house to the cat .	do_dative_to_pp_dative	* girl ( 59 ) ; * donut ( 59 ) ; *
+42	Emma teleported a cake to a dog .	do_dative_to_pp_dative	Emma ( 6 ) ; cake ( 49 ) ; dog ( 59 )
+43	Olivia teleported a mandarin to the cat .	do_dative_to_pp_dative	Olivia ( 0 ) ; mandarin ( 0 ) ; * cat
+44	The cat teleported a crown on a table to Emma .	do_dative_to_pp_dative	* cat ( 0 ) ; crown ( 45 ) ; table ( 0
+45	The child teleported the glue on a tree to Olivia .	do_dative_to_pp_dative	* child ( 59 ) ; * glue ( 46 ) ; tree ( 5
+46	Joshua teleported the cookie beside the box to a girl .	do_dative_to_pp_dative	Joshua ( 59 ) ; * cookie ( 59 ) ; * box (
+47	A monkey teleported the cake to Ava .	do_dative_to_pp_dative	monkey ( 59 ) ; * cake ( 16 ) ; Ava ( 
+48	The dog teleported a cookie on a table to Harper .	do_dative_to_pp_dative	* dog ( 26 ) ; cookie ( 36 ) ; table ( 30 )
+49	Liam teleported the cookie in a car to a boy .	do_dative_to_pp_dative	Liam ( 0 ) ; * cookie ( 46 ) ; car ( 
+50	Liam teleported the box beside the stage to a tourist .	do_dative_to_pp_dative	Liam ( 59 ) ; * box ( 0 ) ; * stage
+51	Sophia teleported the cake on a table to a girl .	do_dative_to_pp_dative	Sophia ( 0 ) ; * cake ( 0 ) ; table ( 22
+52	Julian teleported the cookie beside the table to a girl .	do_dative_to_pp_dative	Julian ( 0 ) ; * cookie ( 0 ) ; * table (
+53	Emma teleported the potato beside the stool to the girl .	do_dative_to_pp_dative	Emma ( 0 ) ; * potato ( 24 ) ; * stool ( 
+54	The lawyer hoped that the tourist believed that Ava teleported the cake beside the table to the girl .	do_dative_to_pp_dative	* lawyer ( 59 ) ; * tourist ( 22 ) ; Ava (
+55	Emma teleported the donut to Benjamin .	do_dative_to_pp_dative	Emma ( 59 ) ; * donut ( 7 ) ; Benjamin ( 48
+56	Luna teleported a cake to Sophia .	do_dative_to_pp_dative	Luna ( 0 ) ; cake ( 0 ) ; Sophia ( 59
+57	The boy teleported a newspaper beside a road to the mouse .	do_dative_to_pp_dative	* boy ( 59 ) ; newspaper ( 7 ) ; road ( 13 
+58	Emma teleported the cake in a room to the boy .	do_dative_to_pp_dative	Emma ( 0 ) ; * cake ( 22 ) ; room ( 59
+59	Liam teleported the raisin to a baby .	do_dative_to_pp_dative	Liam ( 59 ) ; * raisin ( 48 ) ; baby
+60	A cat baked a girl on the desk .	obj_omitted_transitive_to_transitive	cat ( 0 ) ; girl ( 0 ) ; * desk ( 
+61	Natalie respected that the girl baked the box .	obj_omitted_transitive_to_transitive	Natalie ( 23 ) ; * girl ( 12 ) ; * box ( 13 
+62	Emma baked the cookie .	obj_omitted_transitive_to_transitive	Emma ( 59 ) ; * cookie ( 14 ) ; bake ( 0
+63	A sailor baked a cake .	obj_omitted_transitive_to_transitive	sailor ( 30 ) ; cake ( 4 ) ; bake ( 
+64	Jackson baked Jayden .	obj_omitted_transitive_to_transitive	Jackson ( 0 ) ; Jayden ( 0 ) ; bake ( 
+65	Liam baked a girl on a table .	obj_omitted_transitive_to_transitive	Liam ( 59 ) ; girl ( 0 ) ; table ( 38
+66	Emma baked Christopher .	obj_omitted_transitive_to_transitive	Emma ( 30 ) ; Christopher ( 0 ) ; bake ( 53 )
+67	The cat baked the frog on the table .	obj_omitted_transitive_to_transitive	* cat ( 59 ) ; * frog ( 0 ) ;
+68	Emma baked the drink beside the stool .	obj_omitted_transitive_to_transitive	Emma ( 0 ) ; * drink ( 46 ) ; * stool ( 44
+69	Emma baked Hannah .	obj_omitted_transitive_to_transitive	Emma ( 59 ) ; Hannah ( 0 ) ; bake ( 37 
+70	Olivia baked the tool beside the table .	obj_omitted_transitive_to_transitive	Olivia ( 22 ) ; * tool ( 43 ) ; * table ( 59
+71	A girl baked the boy in the trap .	obj_omitted_transitive_to_transitive	girl ( 51 ) ; * boy ( 53 ) ; * trap ( 53 
+72	A girl liked that the patient baked a donut on a windowsill .	obj_omitted_transitive_to_transitive	girl ( 0 ) ; * patient ( 33 ) ; donut ( 19
+73	Benjamin hoped that a teacher baked the boy .	obj_omitted_transitive_to_transitive	Benjamin ( 59 ) ; teacher ( 43 ) ; * boy ( 59
+74	Aiden baked Liam .	obj_omitted_transitive_to_transitive	Aiden ( 0 ) ; Liam ( 0 ) ; bake (
+75	The frog baked a cake .	obj_omitted_transitive_to_transitive	* frog ( 59 ) ; cake ( 17 ) ; bake (
+76	Emma baked the donut beside a table .	obj_omitted_transitive_to_transitive	Emma ( 38 ) ; * donut ( 59 ) ; table ( 17
+77	Carter baked Emma .	obj_omitted_transitive_to_transitive	Carter ( 31 ) ; Emma ( 59 ) ; bake ( 59 
+78	The president baked a cake in a vehicle .	obj_omitted_transitive_to_transitive	* president ( 0 ) ; cake ( 52 ) ; vehicle ( 22 
+79	The spokesman baked a pig .	obj_omitted_transitive_to_transitive	* spokesman ( 59 ) ; pig ( 59 ) ;
+80	A strawberry beside a machine was thrown by a lion on a box .	obj_pp_to_subj_pp	strawberry ( 59 ) ; machine ( 59 ) ; lion ( 
+81	The boy on a towel gave the frog the cake on a booklet .	obj_pp_to_subj_pp	* boy ( 59 ) ; towel ( 54 ) ; * frog
+82	The bird in a box was awarded a ball by the girl beside the machine .	obj_pp_to_subj_pp	* bird ( 37 ) ; box ( 0 ) ; ball ( 0
+83	A producer on a table was given the pumpkin beside a cabinet .	obj_pp_to_subj_pp	producer ( 49 ) ; table ( 59 ) ; * pumpkin ( 46 
+84	The friend in a house beside a stage needed to sneeze .	obj_pp_to_subj_pp	* friend ( 59 ) ; house ( 5 ) ; stage ( 29 
+85	The cake on the bed was rolled by the girl in a tin .	obj_pp_to_subj_pp	* cake ( 0 ) ; * bed ( 59 ) ; * girl
+86	The boy in a bush liked Ryan .	obj_pp_to_subj_pp	* boy ( 31 ) ; bush ( 0 ) ; Ryan ( 59
+87	The basket on the keyboard was eaten .	obj_pp_to_subj_pp	* basket ( 59 ) ; * keyboard ( 59 ) ; eat
+88	The chief beside the skull rolled Grace .	obj_pp_to_subj_pp	* chief ( 33 ) ; * skull ( 59 ) ; Grace ( 
+89	The duck beside a table was served the flag .	obj_pp_to_subj_pp	* duck ( 32 ) ; table ( 0 ) ; * flag ( 28
+90	The moose on the computer liked James .	obj_pp_to_subj_pp	* moose ( 39 ) ; * computer ( 0 ) ; James
+91	The boy beside a yacht cleaned .	obj_pp_to_subj_pp	* boy ( 0 ) ; yacht ( 0 ) ; nmod
+92	A cat on the computer noticed that the teacher beside the book valued the boy .	obj_pp_to_subj_pp	cat ( 23 ) ; * computer ( 59 ) ; * teacher ( 
+93	The cake on a bed was rolled .	obj_pp_to_subj_pp	* cake ( 59 ) ; bed ( 59 ) ; nmod
+94	The cookie beside a bed was disintegrated by a father in the cupboard .	obj_pp_to_subj_pp	* cookie ( 59 ) ; bed ( 43 ) ; father ( 0
+95	A rose beside a table was eaten by a king in the house .	obj_pp_to_subj_pp	rose ( 0 ) ; table ( 59 ) ; king ( 
+96	The cake in the room was seen .	obj_pp_to_subj_pp	* cake ( 59 ) ; * room ( 59 ) ; n
+97	A girl in the house forwarded Victoria a gumball in the shoe .	obj_pp_to_subj_pp	girl ( 24 ) ; * house ( 20 ) ; Victoria ( 0 
+98	The raisin beside the table was valued by a bear beside a stage .	obj_pp_to_subj_pp	* raisin ( 59 ) ; * table ( 31 ) ; bear
+99	A horse in the house was given the hammer beside a bed .	obj_pp_to_subj_pp	horse ( 0 ) ; * hammer ( 0 ) ; bed
+100	A cockroach cleaned the cookie on a sock .	obj_to_subj_common	cockroach ( 59 ) ; * cookie ( 0 ) ; 
+101	The cockroach slid a guest .	obj_to_subj_common	* cockroach ( 59 ) ; guest ( 31 ) ; slide (
+102	The cockroach lended the girl the cake .	obj_to_subj_common	* cockroach ( 59 ) ; * girl ( 26 ) ; *
+103	A cockroach burned the sandwich .	obj_to_subj_common	cockroach ( 0 ) ; * sandwich ( 32 ) ; burn (
+104	The cockroach lended the child a cake .	obj_to_subj_common	* cockroach ( 19 ) ; * child ( 0 ) ; cake
+105	The cockroach split Isabella .	obj_to_subj_common	* cockroach ( 23 ) ; Isabella ( 59 ) ; split
+106	A cockroach fed the girl the cake .	obj_to_subj_common	cockroach ( 0 ) ; * girl ( 27 ) ; * cake
+107	William hoped that a cockroach ate .	obj_to_subj_common	William ( 31 ) ; cockroach ( 59 ) ; hope ( 
+108	A cockroach observed .	obj_to_subj_common	cockroach ( 54 ) ; observe ( 52 ) AND agent ( 52,
+109	The cockroach passed a judge the donut on the stage .	obj_to_subj_common	* cockroach ( 0 ) ; judge ( 49 ) ; * do
+110	A girl hoped that the cockroach gave a cake beside the bed to a cat .	obj_to_subj_common	girl ( 49 ) ; * cockroach ( 59 ) ; cake (
+111	A cockroach liked the cake .	obj_to_subj_common	cockroach ( 52 ) ; * cake ( 0 ) ; like (
+112	The cockroach lended Charlotte the cookie .	obj_to_subj_common	* cockroach ( 59 ) ; Charlotte ( 59 ) ; *
+113	The cockroach passed Emma a cake .	obj_to_subj_common	* cockroach ( 22 ) ; Emma ( 0 ) ; cake (
+114	The cockroach studied .	obj_to_subj_common	* cockroach ( 59 ) ; study ( 59 ) AND agent (
+115	A cockroach painted Lucas .	obj_to_subj_common	cockroach ( 59 ) ; Lucas ( 15 ) ; paint ( 49
+116	Nora said that the cockroach painted the box on a table .	obj_to_subj_common	Nora ( 12 ) ; * cockroach ( 59 ) ; *
+117	Emma liked that the cockroach ate .	obj_to_subj_common	Emma ( 0 ) ; * cockroach ( 42 ) ; like (
+118	A cockroach liked a strawberry on the mattress .	obj_to_subj_common	cockroach ( 52 ) ; strawberry ( 31 ) ; * mattress ( 18
+119	The girl said that the cockroach dreamed to read .	obj_to_subj_common	* girl ( 42 ) ; * cockroach ( 0 ) ; say
+120	Charlie offered a flag beside a trophy to Liam .	obj_to_subj_proper	Charlie ( 0 ) ; flag ( 0 ) ; trophy ( 59
+121	Charlie studied a shell in the house .	obj_to_subj_proper	Charlie ( 0 ) ; shell ( 0 ) ; * house ( 
+122	Charlie rolled the doll .	obj_to_subj_proper	Charlie ( 11 ) ; * doll ( 59 ) ; roll ( 59
+123	Charlie helped a donut on the table .	obj_to_subj_proper	Charlie ( 51 ) ; donut ( 46 ) ; * table ( 59
+124	Charlie ate the cookie on a table .	obj_to_subj_proper	Charlie ( 59 ) ; * cookie ( 34 ) ; table ( 43 
+125	Charlie gave the cake on a seat to the girl .	obj_to_subj_proper	Charlie ( 59 ) ; * cake ( 1 ) ; seat ( 39 
+126	Charlie inflated Lily .	obj_to_subj_proper	Charlie ( 41 ) ; Lily ( 59 ) ; inflate (
+127	Charlie gave a cookie to a girl .	obj_to_subj_proper	Charlie ( 26 ) ; cookie ( 0 ) ; girl ( 59 
+128	Charlie ate the girl on a stage .	obj_to_subj_proper	Charlie ( 48 ) ; * girl ( 0 ) ; stage ( 59
+129	Charlie offered Savannah the cake on a bed .	obj_to_subj_proper	Charlie ( 52 ) ; Savannah ( 59 ) ; * cake ( 43 
+130	Charlie rolled Isabella .	obj_to_subj_proper	Charlie ( 14 ) ; Isabella ( 0 ) ; roll ( 18 
+131	Charlie liked Harper .	obj_to_subj_proper	Charlie ( 18 ) ; Harper ( 31 ) ; like ( 59 )
+132	Charlie liked the crystal in a car .	obj_to_subj_proper	Charlie ( 59 ) ; * crystal ( 3 ) ; car ( 19 
+133	Charlie fed the zebra the nail .	obj_to_subj_proper	Charlie ( 43 ) ; * zebra ( 59 ) ; * nail
+134	Charlie gave the puppy the chemical .	obj_to_subj_proper	Charlie ( 59 ) ; * puppy ( 20 ) ; * chemical ( 
+135	Thomas said that Charlie ate the cookie .	obj_to_subj_proper	Thomas ( 0 ) ; Charlie ( 34 ) ; * cookie ( 0
+136	Charlie inflated the cake on a table .	obj_to_subj_proper	Charlie ( 59 ) ; * cake ( 51 ) ; table ( 0
+137	Charlie sketched the girl in the car .	obj_to_subj_proper	Charlie ( 59 ) ; * girl ( 31 ) ; * car ( 51
+138	Charlie painted a girl beside a table .	obj_to_subj_proper	Charlie ( 11 ) ; girl ( 16 ) ; table ( 36 ) 
+139	Charlie helped a cake beside a beast .	obj_to_subj_proper	Charlie ( 0 ) ; cake ( 0 ) ; beast ( 59
+140	A coach liked that the cobra rolled .	only_seen_as_transitive_subj_as_unacc_subj	coach ( 59 ) ; * cobra ( 49 ) ; like ( 38
+141	Emma declared that a cobra split .	only_seen_as_transitive_subj_as_unacc_subj	Emma ( 0 ) ; cobra ( 51 ) ; declare ( 49 
+142	Lily wished that the cobra floated .	only_seen_as_transitive_subj_as_unacc_subj	Lily ( 0 ) ; * cobra ( 49 ) ; wish (
+143	Amelia supported that the cobra rolled .	only_seen_as_transitive_subj_as_unacc_subj	Amelia ( 59 ) ; * cobra ( 5 ) ; support (
+144	Emily confessed that a cobra burned .	only_seen_as_transitive_subj_as_unacc_subj	Emily ( 0 ) ; cobra ( 0 ) ; confess ( 33
+145	The dog tolerated that the cobra rolled .	only_seen_as_transitive_subj_as_unacc_subj	* dog ( 46 ) ; * cobra ( 38 ) ; tolerate ( 
+146	Ella dreamed that the cobra slid .	only_seen_as_transitive_subj_as_unacc_subj	Ella ( 0 ) ; * cobra ( 0 ) ; dream
+147	A girl respected that the cobra rolled .	only_seen_as_transitive_subj_as_unacc_subj	girl ( 33 ) ; * cobra ( 0 ) ; respect ( 
+148	Elijah wished that the cobra froze .	only_seen_as_transitive_subj_as_unacc_subj	Elijah ( 54 ) ; * cobra ( 59 ) ; wish
+149	A governor believed that a cobra burned .	only_seen_as_transitive_subj_as_unacc_subj	governor ( 59 ) ; cobra ( 0 ) ; believe ( 
+150	The coach liked that the cobra froze .	only_seen_as_transitive_subj_as_unacc_subj	* coach ( 59 ) ; * cobra ( 14 ) ; like (
+151	The girl liked that a cobra froze .	only_seen_as_transitive_subj_as_unacc_subj	* girl ( 0 ) ; cobra ( 29 ) ; like ( 13
+152	A cobra burned .	only_seen_as_transitive_subj_as_unacc_subj	cobra ( 0 ) ; burn ( 0 ) AND theme ( 0
+153	Olivia hoped that a cobra froze .	only_seen_as_transitive_subj_as_unacc_subj	Olivia ( 0 ) ; cobra ( 32 ) ; hope ( 59
+154	A girl liked that a cobra burned .	only_seen_as_transitive_subj_as_unacc_subj	girl ( 59 ) ; cobra ( 2 ) ; like ( 31 
+155	Savannah liked that a cobra burned .	only_seen_as_transitive_subj_as_unacc_subj	Savannah ( 59 ) ; cobra ( 13 ) ; like ( 31 
+156	Emma admired that a cobra decomposed .	only_seen_as_transitive_subj_as_unacc_subj	Emma ( 0 ) ; cobra ( 59 ) ; admire ( 
+157	Emma said that a cobra froze .	only_seen_as_transitive_subj_as_unacc_subj	Emma ( 45 ) ; cobra ( 36 ) ; say ( 0 
+158	A girl supported that a cobra collapsed .	only_seen_as_transitive_subj_as_unacc_subj	girl ( 0 ) ; cobra ( 0 ) ; support ( 52
+159	Liam noticed that a cobra froze .	only_seen_as_transitive_subj_as_unacc_subj	Liam ( 49 ) ; cobra ( 59 ) ; notice ( 
+160	Claire hoped that the hippo drew .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	Claire ( 59 ) ; * hippo ( 54 ) ; hope (
+161	A girl said that the hippo sketched .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	girl ( 34 ) ; * hippo ( 19 ) ; say ( 
+162	A baby hoped that a hippo sketched .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	baby ( 0 ) ; hippo ( 0 ) ; hope (
+163	The cat liked that a hippo called .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	* cat ( 0 ) ; hippo ( 59 ) ; like
+164	A puppy noticed that a hippo painted .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	puppy ( 38 ) ; hippo ( 33 ) ; notice ( 59
+165	The hero imagined that a hippo cooked .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	* hero ( 59 ) ; hippo ( 59 ) ;
+166	Emma admired that a hippo packed .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	Emma ( 59 ) ; hippo ( 59 ) ; admire (
+167	The journalist believed that the hippo ate .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	* journalist ( 59 ) ; * hippo ( 0 ) ;
+168	The child hoped that the hippo investigated .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	* child ( 59 ) ; * hippo ( 59 ) ;
+169	The teacher liked that a hippo ate .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	* teacher ( 59 ) ; hippo ( 0 ) ; like
+170	Mia wished that the hippo ate .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	Mia ( 59 ) ; * hippo ( 59 ) ;
+171	Olivia dreamed that the hippo ate .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	Olivia ( 59 ) ; * hippo ( 59 ) ; dream
+172	The boy noticed that a hippo painted .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	* boy ( 46 ) ; hippo ( 0 ) ; notice (
+173	A hippo juggled .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	hippo ( 41 ) ; juggle ( 43 ) AND agent (
+174	The boy admired that a hippo ate .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	* boy ( 0 ) ; hippo ( 43 ) ; admire (
+175	Isabella confessed that a hippo painted .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	Isabella ( 0 ) ; hippo ( 59 ) ; confess
+176	Mia said that a hippo packed .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	Mia ( 59 ) ; hippo ( 7 ) ; say (
+177	Emma liked that a hippo noticed .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	Emma ( 59 ) ; hippo ( 0 ) ; like (
+178	Noah liked that Liam meant that the hippo packed .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	Noah ( 42 ) ; Liam ( 0 ) ; * hippo
+179	A bird liked that a hippo nursed .	only_seen_as_unacc_subj_as_obj_omitted_transitive_subj	bird ( 59 ) ; hippo ( 14 ) ; like ( 
+180	Liam liked that the hippo walked .	only_seen_as_unacc_subj_as_unerg_subj	Liam ( 26 ) ; * hippo ( 0 ) ; like
+181	A girl proved that a hippo stuttered .	only_seen_as_unacc_subj_as_unerg_subj	girl ( 59 ) ; hippo ( 0 ) ; prove (
+182	A boy noticed that the hippo talked .	only_seen_as_unacc_subj_as_unerg_subj	boy ( 47 ) ; * hippo ( 59 ) ; notice (
+183	Emma supported that the hippo talked .	only_seen_as_unacc_subj_as_unerg_subj	Emma ( 49 ) ; * hippo ( 51 ) ; support ( 
+184	A girl valued that the hippo slept .	only_seen_as_unacc_subj_as_unerg_subj	girl ( 59 ) ; * hippo ( 0 ) ; value
+185	Isabella proved that a hippo sneezed .	only_seen_as_unacc_subj_as_unerg_subj	Isabella ( 0 ) ; hippo ( 30 ) ; prove (
+186	Olivia liked that a hippo screamed .	only_seen_as_unacc_subj_as_unerg_subj	Olivia ( 14 ) ; hippo ( 56 ) ; like ( 0
+187	A professor believed that a hippo cried .	only_seen_as_unacc_subj_as_unerg_subj	professor ( 42 ) ; hippo ( 59 ) ; believe ( 
+188	Emma appreciated that the hippo scoffed .	only_seen_as_unacc_subj_as_unerg_subj	Emma ( 59 ) ; * hippo ( 0 ) ; appreciate
+189	The dog noticed that a hippo ran .	only_seen_as_unacc_subj_as_unerg_subj	* dog ( 0 ) ; hippo ( 42 ) ; notice (
+190	Liam said that the hippo sneezed .	only_seen_as_unacc_subj_as_unerg_subj	Liam ( 16 ) ; * hippo ( 59 ) ; say
+191	A girl hoped that a hippo slept .	only_seen_as_unacc_subj_as_unerg_subj	girl ( 47 ) ; hippo ( 59 ) ; hope ( 
+192	A prisoner believed that the hippo slept .	only_seen_as_unacc_subj_as_unerg_subj	prisoner ( 0 ) ; * hippo ( 59 ) ;
+193	Noah liked that a hippo smiled .	only_seen_as_unacc_subj_as_unerg_subj	Noah ( 59 ) ; hippo ( 56 ) ; like ( 26
+194	The girl expected that a hippo snoozed .	only_seen_as_unacc_subj_as_unerg_subj	* girl ( 0 ) ; hippo ( 0 ) ; expect
+195	A boy appreciated that the hippo slept .	only_seen_as_unacc_subj_as_unerg_subj	boy ( 36 ) ; * hippo ( 52 ) ; appreciate ( 
+196	Jacob noticed that the hippo smiled .	only_seen_as_unacc_subj_as_unerg_subj	Jacob ( 59 ) ; * hippo ( 59 ) ; notice
+197	A girl believed that a hippo jogged .	only_seen_as_unacc_subj_as_unerg_subj	girl ( 59 ) ; hippo ( 43 ) ; believe ( 
+198	The doctor liked that a hippo jogged .	only_seen_as_unacc_subj_as_unerg_subj	* doctor ( 0 ) ; hippo ( 35 ) ; like (
+199	The dog expected that a hippo slept .	only_seen_as_unacc_subj_as_unerg_subj	* dog ( 59 ) ; hippo ( 59 ) ; expect
+200	Emma squeezed a donut .	passive_to_active	Emma ( 0 ) ; donut ( 59 ) ; squeeze ( 32
+201	Mason liked that Emma squeezed the cake beside a book .	passive_to_active	Mason ( 0 ) ; Emma ( 3 ) ; * cake ( 39 
+202	Leah meant that Emma squeezed the rose beside the piano .	passive_to_active	Leah ( 34 ) ; Emma ( 13 ) ; * rose ( 54
+203	Nora squeezed Benjamin .	passive_to_active	Nora ( 51 ) ; Benjamin ( 59 ) ; squeeze ( 44 
+204	The girl squeezed a book on a table .	passive_to_active	* girl ( 31 ) ; book ( 54 ) ; table ( 0 
+205	The frog squeezed Emma .	passive_to_active	* frog ( 59 ) ; Emma ( 42 ) ; squeeze (
+206	A cat squeezed Amelia .	passive_to_active	cat ( 59 ) ; Amelia ( 41 ) ; squeeze ( 0
+207	A monkey squeezed Emma .	passive_to_active	monkey ( 59 ) ; Emma ( 29 ) ; squeeze ( 31 )
+208	Olivia squeezed a fish on the crack .	passive_to_active	Olivia ( 53 ) ; fish ( 4 ) ; * crack ( 0 
+209	Amelia squeezed a beer .	passive_to_active	Amelia ( 0 ) ; beer ( 38 ) ; squeeze ( 0
+210	Ethan squeezed the girl in the garden .	passive_to_active	Ethan ( 0 ) ; * girl ( 0 ) ; * garden
+211	The dog squeezed a box .	passive_to_active	* dog ( 0 ) ; box ( 39 ) ; squeeze ( 0
+212	A dog squeezed Liam .	passive_to_active	dog ( 0 ) ; Liam ( 59 ) ; squeeze ( 
+213	Ella squeezed a rose on a chair on the speaker .	passive_to_active	Ella ( 0 ) ; rose ( 0 ) ; chair ( 38
+214	William squeezed the cake on a stool beside the chair .	passive_to_active	William ( 59 ) ; * cake ( 59 ) ; stool ( 
+215	Elizabeth squeezed the strawberry beside a crystal .	passive_to_active	Elizabeth ( 33 ) ; * strawberry ( 59 ) ; crystal ( 6 
+216	A boy squeezed a box .	passive_to_active	boy ( 0 ) ; box ( 45 ) ; squeeze ( 0 
+217	Carter squeezed Emma .	passive_to_active	Carter ( 59 ) ; Emma ( 44 ) ; squeeze ( 0 
+218	Emma squeezed a girl on a stool .	passive_to_active	Emma ( 56 ) ; girl ( 47 ) ; stool ( 59 )
+219	The girl squeezed Jacob .	passive_to_active	* girl ( 5 ) ; Jacob ( 59 ) ; squeeze ( 45 
+220	Jackson shipped a friend the tool on a tree .	pp_dative_to_do_dative	Jackson ( 59 ) ; friend ( 0 ) ; * tool ( 30
+221	Olivia shipped Emma the rose in a tin .	pp_dative_to_do_dative	Olivia ( 59 ) ; Emma ( 44 ) ; * rose ( 0
+222	The citizen shipped Liam a cake in a house .	pp_dative_to_do_dative	* citizen ( 0 ) ; Liam ( 44 ) ; cake ( 44
+223	A girl shipped Oliver the clock .	pp_dative_to_do_dative	girl ( 59 ) ; Oliver ( 52 ) ; * clock ( 35 
+224	The coach shipped Emma the seed .	pp_dative_to_do_dative	* coach ( 0 ) ; Emma ( 0 ) ; * seed (
+225	Grayson shipped the boy a bell .	pp_dative_to_do_dative	Grayson ( 0 ) ; * boy ( 5 ) ; bell ( 
+226	The coach shipped a dog a cake .	pp_dative_to_do_dative	* coach ( 0 ) ; dog ( 7 ) ; cake ( 31 
+227	A passenger shipped Riley the cake .	pp_dative_to_do_dative	passenger ( 17 ) ; Riley ( 0 ) ; * cake ( 59
+228	A girl liked that Scarlett declared that the prince shipped Olivia a sandwich in a house .	pp_dative_to_do_dative	girl ( 51 ) ; Scarlett ( 0 ) ; * prince (
+229	A girl shipped the boy a chalk in a garden .	pp_dative_to_do_dative	girl ( 0 ) ; * boy ( 0 ) ; chalk ( 44
+230	Skylar shipped Scarlett a bucket .	pp_dative_to_do_dative	Skylar ( 42 ) ; Scarlett ( 36 ) ; bucket (
+231	Emma shipped Alexander a box on the stage .	pp_dative_to_do_dative	Emma ( 59 ) ; Alexander ( 59 ) ; box ( 22 
+232	A father shipped Liam the rose on a table .	pp_dative_to_do_dative	father ( 0 ) ; Liam ( 0 ) ; * rose (
+233	Emma shipped a girl the cake .	pp_dative_to_do_dative	Emma ( 0 ) ; girl ( 59 ) ; * cake ( 8
+234	The boy respected that Samuel shipped Olivia the box in the room .	pp_dative_to_do_dative	* boy ( 59 ) ; Samuel ( 59 ) ; Olivia ( 33
+235	Eleanor shipped Joseph a cake beside the table .	pp_dative_to_do_dative	Eleanor ( 49 ) ; Joseph ( 59 ) ; cake ( 32
+236	A lion shipped Mateo the cake .	pp_dative_to_do_dative	lion ( 0 ) ; Mateo ( 52 ) ; * cake (
+237	Hannah shipped Brooklyn the cake .	pp_dative_to_do_dative	Hannah ( 16 ) ; Brooklyn ( 22 ) ; * cake ( 0 
+238	A boy shipped a frog the sandwich in the garden .	pp_dative_to_do_dative	boy ( 59 ) ; frog ( 0 ) ; * sandwich
+239	The donkey shipped Noah a donut .	pp_dative_to_do_dative	* donkey ( 59 ) ; Noah ( 56 ) ; donut (
+240	Logan slipped a donut on the bun beside the bed beside the table in a cup beside a tree to Emily .	pp_recursion	Logan ( 23 ) ; donut ( 59 ) ; * bun ( 44
+241	A judge poked the donut in a cupboard beside the bin beside the seat in a taxi beside a bed in a house beside a stage in a garden on a rock beside a table .	pp_recursion	judge ( 59 ) ; * donut ( 53 ) ; cupboard ( 
+242	A cat served a box on the napkin beside a log on a bed beside the bike on a TV to the prince .	pp_recursion	cat ( 32 ) ; box ( 0 ) ; * napkin ( 
+243	Liam liked the soldier beside a bottle on the road beside a cup in a room on a sock in a well on the chair in a basin .	pp_recursion	Liam ( 59 ) ; * soldier ( 1 ) ; bottle ( 32
+244	Emma appreciated that the cat snapped the dealer in the cage beside the book in a house beside a sink beside the cup beside a chair beside the bin on the bed .	pp_recursion	Emma ( 59 ) ; * cat ( 59 ) ; * dealer (
+245	Liam liked a donut in the garden in the well on a bike in the house on a bowl in a pod .	pp_recursion	Liam ( 59 ) ; donut ( 22 ) ; * garden (
+246	A cat froze a chicken on a chair in a garden on a table in a dumpster beside the monk beside a bed .	pp_recursion	cat ( 0 ) ; chicken ( 0 ) ; chair ( 59
+247	The girl sketched the cat in a house on a seat beside a table beside a dragon on the notebook in a jar in the room .	pp_recursion	* girl ( 18 ) ; * cat ( 0 ) ; house ( 
+248	The boy ate the monster in the cabinet in a envelope on the tiger beside the painting beside a cat on a box beside a table on a surface in the house in the cup beside the stage .	pp_recursion	* boy ( 21 ) ; * monster ( 0 ) ; * cabinet (
+249	Emily admired a girl beside the monkey on the bible in the car in a palace on a surface on a desk on a cupboard on the table .	pp_recursion	Emily ( 59 ) ; girl ( 1 ) ; * monkey ( 0
+250	A tenant liked the teacher in a glass on a stage in a house .	pp_recursion	tenant ( 59 ) ; * teacher ( 59 ) ; glass ( 
+251	Eleanor painted a teacher in a house beside the stage on the table in a room .	pp_recursion	Eleanor ( 59 ) ; teacher ( 16 ) ; house ( 
+252	A teacher sold a bat beside a machine in the house on the chair in a room beside the sword on a seat on the table to a goose .	pp_recursion	teacher ( 59 ) ; bat ( 43 ) ; machine ( 59 
+253	A dog painted the girl beside the chair in a house beside a road on a dish .	pp_recursion	dog ( 0 ) ; * girl ( 0 ) ; * chair (
+254	The baby returned James the donut on the tree in the house on the bed in a bag .	pp_recursion	* baby ( 0 ) ; James ( 0 ) ; * donut
+255	The boy sold the cake on the boat on the leaflet in the haystack on a bed on a stage on a block in a garden on the chair to the president .	pp_recursion	* boy ( 0 ) ; * cake ( 59 ) ; * boat
+256	The girl cleaned a cat beside a table in a storage on a rock beside the bed in a house on the desk in the garden beside a car .	pp_recursion	* girl ( 59 ) ; cat ( 32 ) ; table ( 48 
+257	A girl handed the block beside a mirror beside a book in a vessel in the room in a house in the box beside the bag beside a log in the saucepan in the car beside the table to Liam .	pp_recursion	girl ( 47 ) ; * block ( 0 ) ; mirror ( 0
+258	Liam ate the cookie in a penthouse beside the book in the house in the stadium on a bible beside the car in a bakery beside the table beside the machine in the container .	pp_recursion	Liam ( 0 ) ; * cookie ( 59 ) ; pent
+259	William helped a boy beside the table on a truck beside the tree on the yacht beside a bed in a car beside a boat beside a chair on a seat in a envelope on a shelf .	pp_recursion	William ( 47 ) ; boy ( 59 ) ; * table ( 59
+260	The lion preferred to crawl .	prim_to_inf_arg	* lion ( 59 ) ; prefer ( 5 ) AND agent ( 5 
+261	Elijah wanted to crawl .	prim_to_inf_arg	Elijah ( 0 ) ; want ( 59 ) AND agent ( 
+262	A student wanted to crawl .	prim_to_inf_arg	student ( 27 ) ; want ( 22 ) AND agent ( 22, 27 
+263	Liam dreamed to crawl .	prim_to_inf_arg	Liam ( 0 ) ; dream ( 0 ) AND agent ( 0
+264	A butterfly hoped that Ava wanted to crawl .	prim_to_inf_arg	butterfly ( 7 ) ; Ava ( 30 ) ; hope ( 59 
+265	Avery wanted to crawl .	prim_to_inf_arg	Avery ( 59 ) ; want ( 44 ) AND agent ( 44,
+266	A manager preferred to crawl .	prim_to_inf_arg	manager ( 34 ) ; prefer ( 0 ) AND agent ( 0,
+267	Ava wanted to crawl .	prim_to_inf_arg	Ava ( 0 ) ; want ( 51 ) AND agent ( 51,
+268	The girl longed to crawl .	prim_to_inf_arg	* girl ( 43 ) ; long ( 28 ) AND agent ( 28, 43
+269	A guard liked to crawl .	prim_to_inf_arg	guard ( 19 ) ; like ( 47 ) AND agent ( 47, 19 
+270	A hen expected to crawl .	prim_to_inf_arg	hen ( 53 ) ; expect ( 37 ) AND agent ( 37, 53
+271	The frog yearned to crawl .	prim_to_inf_arg	* frog ( 59 ) ; yearn ( 48 ) AND agent (
+272	Emma liked that Noah wanted to crawl .	prim_to_inf_arg	Emma ( 0 ) ; Noah ( 59 ) ; like ( 59
+273	A child planned to crawl .	prim_to_inf_arg	child ( 28 ) ; plan ( 0 ) AND agent ( 0,
+274	A chicken longed to crawl .	prim_to_inf_arg	chicken ( 44 ) ; long ( 59 ) AND agent ( 59,
+275	The dog yearned to crawl .	prim_to_inf_arg	* dog ( 43 ) ; yearn ( 0 ) AND agent ( 0
+276	The scientist wanted to crawl .	prim_to_inf_arg	* scientist ( 23 ) ; want ( 59 ) AND agent ( 59 
+277	Madison wanted to crawl .	prim_to_inf_arg	Madison ( 59 ) ; want ( 0 ) AND agent ( 0 
+278	A lion itched to crawl .	prim_to_inf_arg	lion ( 59 ) ; itch ( 46 ) AND agent ( 46 
+279	Logan wanted to crawl .	prim_to_inf_arg	Logan ( 59 ) ; want ( 59 ) AND agent ( 59 
+280	Owen rented Olivia the shark beside the stool .	prim_to_obj_common	Owen ( 0 ) ; Olivia ( 0 ) ; * shark ( 
+281	A bear gave Claire a shark .	prim_to_obj_common	bear ( 0 ) ; Claire ( 48 ) ; shark ( 44 )
+282	A cat posted the shark on the desk to Sophia .	prim_to_obj_common	cat ( 42 ) ; * shark ( 42 ) ; * desk ( 59
+283	Liam sold the shark to Emma .	prim_to_obj_common	Liam ( 59 ) ; * shark ( 26 ) ; Emma ( 
+284	A tiger rolled a shark .	prim_to_obj_common	tiger ( 26 ) ; shark ( 29 ) ; roll ( 56 
+285	James drew a shark .	prim_to_obj_common	James ( 59 ) ; shark ( 59 ) ; draw ( 0
+286	Isabella gave the shark in the car to Emma .	prim_to_obj_common	Isabella ( 59 ) ; * shark ( 47 ) ; * car (
+287	Emma rolled a shark on the notebook .	prim_to_obj_common	Emma ( 59 ) ; shark ( 39 ) ; * notebook ( 59
+288	Ethan crumpled the shark .	prim_to_obj_common	Ethan ( 21 ) ; * shark ( 25 ) ; crumple ( 38
+289	The girl passed a donkey a shark on a speaker .	prim_to_obj_common	* girl ( 31 ) ; donkey ( 41 ) ; shark ( 59
+290	Michael thought that Elizabeth awarded the boy a shark .	prim_to_obj_common	Michael ( 59 ) ; Elizabeth ( 24 ) ; * boy ( 30 
+291	A cat gave Emma a shark .	prim_to_obj_common	cat ( 59 ) ; Emma ( 59 ) ; shark ( 23 
+292	The priest ate a shark .	prim_to_obj_common	* priest ( 42 ) ; shark ( 0 ) ; eat ( 
+293	A boy gave the lion a shark beside the table .	prim_to_obj_common	boy ( 0 ) ; * lion ( 30 ) ; shark ( 
+294	Benjamin ate the shark .	prim_to_obj_common	Benjamin ( 18 ) ; * shark ( 21 ) ; eat ( 59
+295	Liam ate a shark on the rock .	prim_to_obj_common	Liam ( 59 ) ; shark ( 0 ) ; * rock (
+296	Benjamin liked that Emma admired that Liam loaned a shark to the dog .	prim_to_obj_common	Benjamin ( 0 ) ; Emma ( 41 ) ; Liam ( 0
+297	A teacher hoped that a girl ate a shark on the table .	prim_to_obj_common	teacher ( 59 ) ; girl ( 59 ) ; shark ( 0
+298	Noah liked that a cat helped the shark beside a table .	prim_to_obj_common	Noah ( 59 ) ; cat ( 48 ) ; * shark ( 51 
+299	Emily ate the shark in the house .	prim_to_obj_common	Emily ( 54 ) ; * shark ( 22 ) ; * house ( 59
+300	Theodore changed Paula .	prim_to_obj_proper	Theodore ( 0 ) ; Paula ( 56 ) ; change (
+301	A tiger rolled Paula .	prim_to_obj_proper	tiger ( 0 ) ; Paula ( 4 ) ; roll (
+302	Sophia sent Ava Paula .	prim_to_obj_proper	Sophia ( 59 ) ; Ava ( 23 ) ; Paula ( 
+303	Noah liked Paula .	prim_to_obj_proper	Noah ( 0 ) ; Paula ( 29 ) ; like ( 54 
+304	The student helped Paula .	prim_to_obj_proper	* student ( 59 ) ; Paula ( 0 ) ; help (
+305	A horse said that the moose ate Paula .	prim_to_obj_proper	horse ( 47 ) ; * moose ( 0 ) ; Paula
+306	Olivia sold Paula to the priest .	prim_to_obj_proper	Olivia ( 0 ) ; Paula ( 24 ) ; * priest ( 29
+307	James discovered Paula .	prim_to_obj_proper	James ( 59 ) ; Paula ( 53 ) ; discover ( 12 
+308	The girl gave Paula to Addison .	prim_to_obj_proper	* girl ( 30 ) ; Paula ( 44 ) ; Addison (
+309	The girl decomposed Paula .	prim_to_obj_proper	* girl ( 59 ) ; Paula ( 0 ) ; decom
+310	A boy mailed Paula to the girl .	prim_to_obj_proper	boy ( 59 ) ; Paula ( 19 ) ; * girl ( 
+311	Scarlett lended a consumer Paula .	prim_to_obj_proper	Scarlett ( 0 ) ; consumer ( 28 ) ; Paula (
+312	Ava broke Paula .	prim_to_obj_proper	Ava ( 0 ) ; Paula ( 59 ) ; break (
+313	Aubrey handed Paula to Charlotte .	prim_to_obj_proper	Aubrey ( 0 ) ; Paula ( 31 ) ; Charlotte (
+314	The girl forwarded Paula to Olivia .	prim_to_obj_proper	* girl ( 39 ) ; Paula ( 56 ) ; Olivia ( 59
+315	Logan gave the cat Paula .	prim_to_obj_proper	Logan ( 59 ) ; * cat ( 0 ) ; Paula (
+316	Wyatt proved that the boy rented Paula to Ava .	prim_to_obj_proper	Wyatt ( 23 ) ; * boy ( 38 ) ; Paula (
+317	Oliver burned Paula .	prim_to_obj_proper	Oliver ( 34 ) ; Paula ( 59 ) ; burn ( 52 
+318	A girl dusted Paula .	prim_to_obj_proper	girl ( 49 ) ; Paula ( 0 ) ; dust ( 42 
+319	Logan hunted Paula .	prim_to_obj_proper	Logan ( 16 ) ; Paula ( 19 ) ; hunt ( 50 )
+320	The shark ate a rose .	prim_to_subj_common	* shark ( 59 ) ; rose ( 16 ) ; eat ( 11
+321	The shark gave Elijah the cake beside a seat .	prim_to_subj_common	* shark ( 0 ) ; Elijah ( 59 ) ; *
+322	The shark examined Sophia .	prim_to_subj_common	* shark ( 59 ) ; Sophia ( 59 ) ; examine ( 
+323	The shark pierced a cake .	prim_to_subj_common	* shark ( 59 ) ; cake ( 59 ) ; pierce
+324	The shark juggled the cake beside the bat .	prim_to_subj_common	* shark ( 31 ) ; * cake ( 0 ) ; * bat (
+325	The shark loved the balloon .	prim_to_subj_common	* shark ( 26 ) ; * balloon ( 0 ) ; love ( 39
+326	A shark mailed Oliver the cookie .	prim_to_subj_common	shark ( 59 ) ; Oliver ( 0 ) ; * cookie ( 
+327	The shark dusted the donut on the road .	prim_to_subj_common	* shark ( 13 ) ; * donut ( 0 ) ; * road
+328	The shark lended a bat to Noah .	prim_to_subj_common	* shark ( 0 ) ; bat ( 59 ) ; Noah ( 
+329	The shark painted the chicken beside the table .	prim_to_subj_common	* shark ( 59 ) ; * chicken ( 0 ) ; * table
+330	The shark collapsed a girl .	prim_to_subj_common	* shark ( 59 ) ; girl ( 0 ) ; collapse ( 24
+331	A shark painted a girl .	prim_to_subj_common	shark ( 0 ) ; girl ( 0 ) ; paint ( 48 
+332	The shark froze the boy on a table .	prim_to_subj_common	* shark ( 0 ) ; * boy ( 56 ) ; table ( 13
+333	The shark dusted Michael .	prim_to_subj_common	* shark ( 23 ) ; Michael ( 46 ) ; dust ( 0 
+334	Liam said that a shark preferred to sleep .	prim_to_subj_common	Liam ( 12 ) ; shark ( 59 ) ; say ( 37 
+335	The shark wished to eat .	prim_to_subj_common	* shark ( 8 ) ; wish ( 0 ) AND agent ( 0 
+336	The girl thought that the shark liked a cake .	prim_to_subj_common	* girl ( 59 ) ; * shark ( 59 ) ; cake (
+337	The shark froze a cake in a house .	prim_to_subj_common	* shark ( 0 ) ; cake ( 21 ) ; house ( 59
+338	The shark offered a cake to Liam .	prim_to_subj_common	* shark ( 24 ) ; cake ( 0 ) ; Liam ( 27
+339	The shark intended to giggle .	prim_to_subj_common	* shark ( 59 ) ; intend ( 0 ) AND agent ( 0
+340	Paula rolled a brick .	prim_to_subj_proper	Paula ( 59 ) ; brick ( 0 ) ; roll ( 
+341	Paula dusted Lucas .	prim_to_subj_proper	Paula ( 51 ) ; Lucas ( 0 ) ; dust ( 0
+342	Paula gave a cat the cake on the speaker .	prim_to_subj_proper	Paula ( 31 ) ; cat ( 59 ) ; * cake ( 33
+343	Paula gave Emma a cake on the TV .	prim_to_subj_proper	Paula ( 44 ) ; Emma ( 59 ) ; cake ( 39 
+344	Paula liked the drink in the house .	prim_to_subj_proper	Paula ( 0 ) ; * drink ( 59 ) ; * house
+345	Paula rolled Ethan .	prim_to_subj_proper	Paula ( 0 ) ; Ethan ( 0 ) ; roll (
+346	Paula liked the cookie .	prim_to_subj_proper	Paula ( 59 ) ; * cookie ( 59 ) ; like (
+347	Paula lended a boy the cake beside the chair .	prim_to_subj_proper	Paula ( 0 ) ; boy ( 34 ) ; * cake ( 
+348	Paula rolled the knife .	prim_to_subj_proper	Paula ( 59 ) ; * knife ( 2 ) ; roll ( 
+349	Paula brought the donut to the duck .	prim_to_subj_proper	Paula ( 0 ) ; * donut ( 0 ) ; *
+350	Paula helped a girl beside the table .	prim_to_subj_proper	Paula ( 4 ) ; girl ( 45 ) ; * table ( 1 
+351	Paula mailed Liam the newspaper .	prim_to_subj_proper	Paula ( 42 ) ; Liam ( 59 ) ; * newspaper (
+352	Paula gave a cake on a table to Emma .	prim_to_subj_proper	Paula ( 0 ) ; cake ( 0 ) ; table ( 
+353	Paula wanted to paint .	prim_to_subj_proper	Paula ( 53 ) ; want ( 48 ) AND agent ( 48, 53
+354	Paula lended a donut on a gravel to the girl .	prim_to_subj_proper	Paula ( 5 ) ; donut ( 59 ) ; gravel ( 
+355	Paula helped a glue in the garden .	prim_to_subj_proper	Paula ( 59 ) ; glue ( 35 ) ; * garden ( 
+356	Paula rolled a boy .	prim_to_subj_proper	Paula ( 18 ) ; boy ( 59 ) ; roll ( 59
+357	Paula gave a patient the donut in the barrel .	prim_to_subj_proper	Paula ( 59 ) ; patient ( 0 ) ; * donut
+358	Paula froze the crayon on the pad .	prim_to_subj_proper	Paula ( 59 ) ; * crayon ( 25 ) ; * pad (
+359	Paula lended the donut to a girl .	prim_to_subj_proper	Paula ( 59 ) ; * donut ( 59 ) ; girl
+360	Abigail gave the hedgehog to the frog .	subj_to_obj_common	Abigail ( 38 ) ; * hedgehog ( 46 ) ; * 
+361	A dog liked the hedgehog beside the seat .	subj_to_obj_common	dog ( 0 ) ; * hedgehog ( 49 ) ; * seat (
+362	Isabella crumpled the hedgehog .	subj_to_obj_common	Isabella ( 59 ) ; * hedgehog ( 0 ) ; cru
+363	The girl found the hedgehog on a table .	subj_to_obj_common	* girl ( 59 ) ; * hedgehog ( 10 ) ; table (
+364	The guest handed the hedgehog in the vehicle to a lion .	subj_to_obj_common	* guest ( 25 ) ; * hedgehog ( 0 ) ; * vehicle
+365	Emma crumpled a hedgehog on the stage .	subj_to_obj_common	Emma ( 43 ) ; hedgehog ( 59 ) ; * stage ( 
+366	Liam gave Emma the hedgehog beside the road in the bag .	subj_to_obj_common	Liam ( 59 ) ; Emma ( 59 ) ; * hedgehog
+367	A girl snapped a hedgehog on a tree beside the table .	subj_to_obj_common	girl ( 46 ) ; hedgehog ( 59 ) ; tree ( 0
+368	Benjamin floated the hedgehog in a room .	subj_to_obj_common	Benjamin ( 0 ) ; * hedgehog ( 38 ) ; room ( 48
+369	Emma rolled a hedgehog on the notebook .	subj_to_obj_common	Emma ( 59 ) ; hedgehog ( 31 ) ; * notebook ( 34
+370	The frog shortened the hedgehog in a box .	subj_to_obj_common	* frog ( 48 ) ; * hedgehog ( 0 ) ;
+371	Emma gave a bunny a hedgehog .	subj_to_obj_common	Emma ( 0 ) ; bunny ( 59 ) ; hedgehog
+372	Isabella poked the hedgehog beside the table .	subj_to_obj_common	Isabella ( 59 ) ; * hedgehog ( 6 ) ; * table
+373	The boy liked that Alexander brought a monster a hedgehog .	subj_to_obj_common	* boy ( 37 ) ; Alexander ( 0 ) ; monster ( 0
+374	A doctor lended a hedgehog beside a cup to a hero .	subj_to_obj_common	doctor ( 54 ) ; hedgehog ( 20 ) ; cup ( 0 
+375	A child shortened the hedgehog in a room .	subj_to_obj_common	child ( 59 ) ; * hedgehog ( 21 ) ; room ( 52
+376	Emma declared that a cat gave the hedgehog to a girl .	subj_to_obj_common	Emma ( 46 ) ; cat ( 23 ) ; * hedgehog ( 51 
+377	Emma ate a hedgehog .	subj_to_obj_common	Emma ( 0 ) ; hedgehog ( 0 ) ; eat (
+378	The customer supported that a boy proved that the girl gave a hedgehog to a mouse .	subj_to_obj_common	* customer ( 31 ) ; boy ( 0 ) ; * girl ( 43
+379	Emma stabbed a hedgehog .	subj_to_obj_common	Emma ( 0 ) ; hedgehog ( 49 ) ; stab ( 28
+380	William rolled Lina .	subj_to_obj_proper	William ( 49 ) ; Lina ( 0 ) ; roll ( 37 
+381	Addison handed Lina to Emma .	subj_to_obj_proper	Addison ( 59 ) ; Lina ( 14 ) ; Emma (
+382	The girl offered the horse Lina .	subj_to_obj_proper	* girl ( 53 ) ; * horse ( 13 ) ; Lina ( 
+383	Emma cleaned Lina .	subj_to_obj_proper	Emma ( 59 ) ; Lina ( 46 ) ; clean ( 53 
+384	The boy gave the girl Lina .	subj_to_obj_proper	* boy ( 59 ) ; * girl ( 0 ) ; Lina
+385	Logan gave the cat Lina .	subj_to_obj_proper	Logan ( 0 ) ; * cat ( 0 ) ; Lina (
+386	A king liked that a chicken gave Emma Lina .	subj_to_obj_proper	king ( 0 ) ; chicken ( 0 ) ; Emma ( 
+387	Daniel promised Ellie Lina .	subj_to_obj_proper	Daniel ( 59 ) ; Ellie ( 0 ) ; Lina (
+388	The duck liked Lina .	subj_to_obj_proper	* duck ( 33 ) ; Lina ( 0 ) ; like ( 
+389	Caleb sold Ethan Lina .	subj_to_obj_proper	Caleb ( 0 ) ; Ethan ( 34 ) ; Lina
+390	Emma believed that Noah gave Liam Lina .	subj_to_obj_proper	Emma ( 59 ) ; Noah ( 0 ) ; Liam ( 
+391	Emma passed Lina to a kitty .	subj_to_obj_proper	Emma ( 59 ) ; Lina ( 37 ) ; kitty (
+392	The princess ate Lina .	subj_to_obj_proper	* princess ( 59 ) ; Lina ( 0 ) ; eat
+393	Evelyn gave Lina to a journalist .	subj_to_obj_proper	Evelyn ( 59 ) ; Lina ( 0 ) ; journalist
+394	Oliver dusted Lina .	subj_to_obj_proper	Oliver ( 0 ) ; Lina ( 38 ) ; dust ( 0
+395	A giraffe mailed Lina to the girl .	subj_to_obj_proper	giraffe ( 34 ) ; Lina ( 34 ) ; * girl
+396	Elijah grew Lina .	subj_to_obj_proper	Elijah ( 23 ) ; Lina ( 33 ) ; grow ( 
+397	The bear painted Lina .	subj_to_obj_proper	* bear ( 0 ) ; Lina ( 0 ) ; paint (
+398	A butterfly rolled Lina .	subj_to_obj_proper	butterfly ( 59 ) ; Lina ( 59 ) ; roll ( 
+399	A scientist gave Penelope Lina .	subj_to_obj_proper	scientist ( 0 ) ; Penelope ( 0 ) ; Lina
+400	A boy shattered the block on a tree .	unacc_to_transitive	boy ( 30 ) ; * block ( 59 ) ; tree ( 43 
+401	Liam shattered the cake beside a table .	unacc_to_transitive	Liam ( 0 ) ; * cake ( 32 ) ; table ( 40
+402	A girl shattered a block .	unacc_to_transitive	girl ( 53 ) ; block ( 0 ) ; shat ( 
+403	Harper shattered a ball in a house .	unacc_to_transitive	Harper ( 0 ) ; ball ( 46 ) ; house ( 59 
+404	The girl shattered a donut .	unacc_to_transitive	* girl ( 59 ) ; donut ( 35 ) ; shat
+405	A professor shattered Emily .	unacc_to_transitive	professor ( 59 ) ; Emily ( 26 ) ; stutter (
+406	The child shattered Olivia .	unacc_to_transitive	* child ( 59 ) ; Olivia ( 59 ) ; st
+407	Alexander shattered the researcher on a mattress .	unacc_to_transitive	Alexander ( 0 ) ; * researcher ( 0 ) ; mattress ( 12
+408	William supported that Grace shattered the cookie on the table .	unacc_to_transitive	William ( 59 ) ; Grace ( 24 ) ; * cookie ( 59
+409	The cat shattered a shell in the storage .	unacc_to_transitive	* cat ( 59 ) ; shell ( 59 ) ; * storage (
+410	Liam shattered the girl .	unacc_to_transitive	Liam ( 49 ) ; * girl ( 0 ) ; shat
+411	Carter shattered the cat on the desk .	unacc_to_transitive	Carter ( 34 ) ; * cat ( 1 ) ; * desk ( 0
+412	Emma shattered a baby .	unacc_to_transitive	Emma ( 59 ) ; baby ( 0 ) ; stutter
+413	Emma thought that the farmer shattered William .	unacc_to_transitive	Emma ( 59 ) ; * farmer ( 50 ) ; William ( 59
+414	Emma shattered the donut .	unacc_to_transitive	Emma ( 1 ) ; * donut ( 31 ) ; stutter
+415	Emma shattered the baby .	unacc_to_transitive	Emma ( 59 ) ; * baby ( 59 ) ; shat
+416	Lucas shattered a cake .	unacc_to_transitive	Lucas ( 12 ) ; cake ( 59 ) ; shat ( 56
+417	The politician thought that the lion shattered a donut .	unacc_to_transitive	* politician ( 0 ) ; * lion ( 0 ) ; do
+418	A hero shattered a cake beside a table .	unacc_to_transitive	hero ( 0 ) ; cake ( 0 ) ; table ( 34
+419	Mia shattered the raisin on the box .	unacc_to_transitive	Mia ( 49 ) ; * raisin ( 59 ) ; *
